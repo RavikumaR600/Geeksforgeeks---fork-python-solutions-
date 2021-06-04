@@ -1,0 +1,32 @@
+def printIncreasingPower(x):
+    i=1
+    
+    while(i**2<=x):
+        ##Your code here
+        
+        print (i**2 , end = " ")
+        
+        ##Your code here
+        i+=1
+
+#{ 
+#Driver Code Starts.
+# Driver Code
+def main():
+    
+    # Testcase input
+    testcases = int(input())
+    
+    # Looping through testcases
+    while(testcases > 0):
+        x = int(input())
+        
+        printIncreasingPower(x);
+        print ()
+        
+        
+        testcases -= 1
+ 
+if __name__ == '__main__':
+    main()
+#} Driver Code Ends
