@@ -1,0 +1,18 @@
+import math
+from math import pi , e
+
+def math_func():
+    #import math module and print pi and e
+    print("pi =",pi)       
+    print("e =",e)
+
+#{ 
+#Driver Code Starts.
+
+def main():
+    math_func()
+    
+    
+if __name__ == '__main__':
+    main()
+#} Driver Code Ends
